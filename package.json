@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "db_create": "psql -U postgres -d antcritique -f './db/db_create.sql'",
-    "db_firstseed": "psql -U postgres -d antcritique -f './db/db_firstseed.sql'"
+    "db_create": "psql -U postgres -d antcritique -f ./db/db_create.sql",
+    "db_firstseed": "psql -U postgres -d antcritique -f ./db/db_firstseed.sql",
+    "db_reset": "psql -U postgres -d antcritique -f ./db/db_create.sql && psql -U postgres -d antcritique -f ./db/db_firstseed.sql"
   },
   "author": "",
   "license": "ISC",

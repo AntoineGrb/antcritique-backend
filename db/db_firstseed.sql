@@ -2,8 +2,11 @@ BEGIN;
 
 -- Insert data into the 'cover' table
 INSERT INTO cover ("name", "url") VALUES 
-('Réalité', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Realite_Cover.jpg'),
-('Babylon', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Babylon.jpg')
+('realite', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Realite_Cover.jpg'),
+('babylon', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Babylon.jpg'),
+('friends', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Friends.jpg'),
+('dragon-quest', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Dragon_Quest.jpg'),
+('la-horde-du-contrevent', 'https://storage.googleapis.com/bucket_antcritique/Films/covers/Horde_Contrevent_Accueil.jpg')
 ;
 
 
