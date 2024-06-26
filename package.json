@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db_create": "psql -U postgres -d antcritique -f './db/db_create.sql'",
+    "db_firstseed": "psql -U postgres -d antcritique -f './db/db_firstseed.sql'"
   },
   "author": "",
   "license": "ISC",
